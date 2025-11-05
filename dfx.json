@@ -1,0 +1,57 @@
+{
+  "canisters": {
+    "arbitra_backend": {
+      "main": "src/arbitra_backend/main.mo",
+      "type": "motoko"
+    },
+    "evidence_manager": {
+      "main": "src/evidence_manager/main.mo",
+      "type": "motoko"
+    },
+    "ai_analysis": {
+      "main": "src/ai_analysis/main.mo",
+      "type": "motoko",
+      "dependencies": [
+        "evidence_manager"
+      ]
+    },
+    "bitcoin_escrow": {
+      "main": "src/bitcoin_escrow/main.mo",
+      "type": "motoko"
+    },
+    "arbitra_frontend": {
+      "dependencies": [
+        "arbitra_backend",
+        "evidence_manager",
+        "ai_analysis",
+        "bitcoin_escrow"
+      ],
+      "frontend": {
+        "entrypoint": "src/arbitra_frontend/dist/index.html"
+      },
+      "source": [
+        "src/arbitra_frontend/dist"
+      ],
+      "type": "assets"
+    },
+    "internet_identity": {
+      "type": "custom",
+      "candid": "https://github.com/dfinity/internet-identity/releases/latest/download/internet_identity.did",
+      "wasm": "https://github.com/dfinity/internet-identity/releases/latest/download/internet_identity_dev.wasm.gz",
+      "remote": {
+        "id": {
+          "ic": "rdmx6-jaaaa-aaaaa-aaadq-cai"
+        }
+      },
+      "frontend": {}
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
