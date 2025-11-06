@@ -1,4 +1,5 @@
-# 🏛️ Arbitra -  AI-Powered Decentralized Legal Dispute Resolution on ICP
+# 🏛️ Arbitra 
+# AI-Powered Decentralized Legal Dispute Resolution on ICP
 
 > **Revolutionizing legal dispute resolution through blockchain technology, AI analysis, and decentralized arbitration.**
 
