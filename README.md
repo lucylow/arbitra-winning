@@ -1,12 +1,11 @@
 # 🏛️ Arbitra -  AI-Powered Decentralized Legal Dispute Resolution on ICP
 
-> **Revolutionizing arbitration with blockchain trust, AI intelligence, and Bitcoin settlement**
+> **Revolutionizing legal dispute resolution through blockchain technology, AI analysis, and decentralized arbitration.**
 
 [![ICP](https://img.shields.io/badge/Internet%20Computer-ICP-blue)](https://internetcomputer.org/)
 [![Bitcoin](https://img.shields.io/badge/Bitcoin-Native-orange)](https://bitcoin.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-> **Revolutionizing legal dispute resolution through blockchain technology, AI analysis, and decentralized arbitration.**
 
 Arbitra is a comprehensive dispute resolution platform that leverages the Internet Computer Protocol (ICP) and Constellation Network to create a transparent, efficient, and accessible legal tech solution.
 
